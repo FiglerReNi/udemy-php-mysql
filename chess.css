@@ -1,0 +1,21 @@
+td {
+    height: 30px;
+    width: 30px;
+    border: solid black 2px;
+}
+table {
+    border-collapse: collapse;
+    border: solid black 2px;
+}
+table .b:nth-child(even) {
+    background-color: white;
+}
+table .b:nth-child(odd) {
+    background-color: black;
+}
+table .w:nth-child(even) {
+    background-color: black;
+}
+table .w:nth-child(odd) {
+    background-color: white;
+}

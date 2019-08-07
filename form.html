@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action = "feldolgoz.php" method = "post">
+                <label>Temperature:</label>
+                <input type="number" name="temp"/>
+                <label>°C:</label>
+                <input type="radio" name="fok" value="°C"/>
+                <label>°F:</label>
+                <input type="radio" name="fok" value="°F"/>
+                <label>Pontosság:</label>
+                <select name="pontossag" size="4">
+                <option value="egesz">Egész</option>
+                <option value="egy">.0</option>
+                <option value="ketto">.00</option>
+                <option value="harom">.000</option>                   
+                </select>
+                <input type="submit" name="submit"/>
+                
+            </form>
+        </div>
+    </body>
+</html>
